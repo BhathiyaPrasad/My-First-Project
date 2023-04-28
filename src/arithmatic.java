@@ -1,8 +1,9 @@
 
-
 public class arithmatic {
-     public static void main(String[] args) {   
-       double average =(double)1000 / (double)6;
-        System.out.println(average);
+    public static void main(String[] args) {
+        double x = 1;
+        x/=2;
+        System.out.println(x);
+
     }
 }
