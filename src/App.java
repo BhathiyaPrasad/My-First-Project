@@ -1,12 +1,8 @@
-
-import java.util.Arrays;
-
 public class App {
-    public static void main(String[] args) {
-        int[] numbers = new int [5];
-        numbers[0] = 1;
-        numbers[1] = 2;
-        
-        System.out.println(Arrays.toString(numbers));
-    }
+
+ public static void main(string[] args) {
+    int result = 10 + 3;
+    System.out.println(result);
+ }
+
 }
