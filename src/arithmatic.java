@@ -1,9 +1,10 @@
+import java.rmi.StubNotFoundException;
+import java.text.NumberFormat;
 
 public class arithmatic {
     public static void main(String[] args) {
-        double x = 1;
-        x/=2;
-        System.out.println(x);
+        String result =NumberFormat.getPercentInstance().format(0.2);
+        System.out.println(result);
 
     }
 }
