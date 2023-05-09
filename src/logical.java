@@ -3,7 +3,7 @@ public class logical {
        boolean hasHighIncome = true;
        boolean hasGoodCredit = true;
        boolean hasCriminalReport = false;
-       boolean isEligible =  (hasHighIncome || hasGoodCredit) && !hasCriminalReport ;
+       boolean isEligible =  (hasHighIncome || hasGoodCredit) && !hasCriminalReport;
        System.out.println(isEligible);
     }
 }
